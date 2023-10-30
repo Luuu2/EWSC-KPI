@@ -1,0 +1,37 @@
+{
+  "name": "edamsportal",
+  "version": "1.0.0",
+  "description": "version1",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "aws-sdk": "^2.1378.0",
+    "bootstrap": "^5.3.0-alpha3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.0.0",
+    "mime": "^3.0.0",
+    "mock-aws-s3": "^4.0.2",
+    "msnodesqlv8": "^3.1.0",
+    "mssql": "^9.1.1",
+    "nock": "^13.3.1",
+    "odbc": "^2.4.8",
+    "path": "^0.12.7",
+    "puppeteer": "^20.4.0",
+    "requirejs": "^2.3.6",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "node-loader": "^2.0.0",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
