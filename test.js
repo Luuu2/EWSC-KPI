@@ -26,43 +26,43 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'));
 
-const publicDirectory = path.resolve('../edamsPortal','./public');
+const publicDirectory = path.resolve('./public');
 
 app.get('/index', (req, res) => {
-  const filePath = path.resolve('../edamsPortal/public', './index.html');
+  const filePath = path.resolve('./index.html');
   res.sendFile(filePath);
 });
 
 app.get('/finance', (req, res) => {
-    const filePath = path.resolve('../edamsPortal/public', './finance.html');
+    const filePath = path.resolve('./finance.html');
     res.sendFile(filePath);
   });
 
 app.get('/audit', (req, res) => {
-const filePath = path.resolve('../edamsPortal/public', './audit.html');
+const filePath = path.resolve('./audit.html');
 res.sendFile(filePath);
 });
 
 app.get('/hrcx', (req, res) => {
-const filePath = path.resolve('../edamsPortal/public', './hrcx.html');
+const filePath = path.resolve('./hrcx.html');
 res.sendFile(filePath);
 });
 
 app.get('/qne', (req, res) => {
     //res.send('hi');
-    const filePath = path.resolve('../edamsPortal/public', './qne.html');
+    const filePath = path.resolve('./qne.html');
     res.sendFile(filePath);
   });
 
 app.get('/inftech', (req, res) => {
 //res.send('hi');
-const filePath = path.resolve('../edamsPortal/public', './inftech.html');
+const filePath = path.resolve('./inftech.html');
 res.sendFile(filePath);
 });
 
 app.get('/ecowater', (req, res) => {
     //res.send('hi');
-    const filePath = path.resolve('../edamsPortal/public', './ecowater.html');
+    const filePath = path.resolve('./ecowater.html');
     res.sendFile(filePath);
   });
 
